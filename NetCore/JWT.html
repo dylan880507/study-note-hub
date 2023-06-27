@@ -1,0 +1,1456 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>JWT · Study Note</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Dylan">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-tomorrow.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-page-toc-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-theme-comscore/test.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="MemoryCache_and_分布式Cache_Redis.html" />
+    
+    
+    <link rel="prev" href="Identify_Server_4.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    NetCore
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="ABP.html">
+            
+                <a href="ABP.html">
+            
+                    
+                    ABP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="AOP.html">
+            
+                <a href="AOP.html">
+            
+                    
+                    AOP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="c_sharp.html">
+            
+                <a href="c_sharp.html">
+            
+                    
+                    c_sharp
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="EF_Core.html">
+            
+                <a href="EF_Core.html">
+            
+                    
+                    EF_Core
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="Identify_Server_4.html">
+            
+                <a href="Identify_Server_4.html">
+            
+                    
+                    Identify_Server_4
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.6" data-path="JWT.html">
+            
+                <a href="JWT.html">
+            
+                    
+                    JWT
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="MemoryCache_and_分布式Cache_Redis.html">
+            
+                <a href="MemoryCache_and_分布式Cache_Redis.html">
+            
+                    
+                    MemoryCacheand分布式Cache_Redis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="MySQL.html">
+            
+                <a href="MySQL.html">
+            
+                    
+                    MySQL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="Net_Core_API.html">
+            
+                <a href="Net_Core_API.html">
+            
+                    
+                    Net_Core_API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="Net_Core_MVC.html">
+            
+                <a href="Net_Core_MVC.html">
+            
+                    
+                    Net_Core_MVC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="Net_Index.html">
+            
+                <a href="Net_Index.html">
+            
+                    
+                    Net_Index
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="note.html">
+            
+                <a href="note.html">
+            
+                    
+                    note
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.13" data-path="Polly.html">
+            
+                <a href="Polly.html">
+            
+                    
+                    Polly
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.14" data-path="大神的博客.html">
+            
+                <a href="大神的博客.html">
+            
+                    
+                    大神的博客
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    os
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../os/centos.html">
+            
+                <a href="../os/centos.html">
+            
+                    
+                    centos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../os/gitbook.html">
+            
+                <a href="../os/gitbook.html">
+            
+                    
+                    gitbook
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../os/nginx.html">
+            
+                <a href="../os/nginx.html">
+            
+                    
+                    nginx
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../os/ubuntu.html">
+            
+                <a href="../os/ubuntu.html">
+            
+                    
+                    ubuntu
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    python
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../python/note_command.html">
+            
+                <a href="../python/note_command.html">
+            
+                    
+                    note_command
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../python/note_logic.html">
+            
+                <a href="../python/note_logic.html">
+            
+                    
+                    note_logic
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    webend
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../webend/@vue_cli.html">
+            
+                <a href="../webend/@vue_cli.html">
+            
+                    
+                    @vue_cli
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../webend/cdn.html">
+            
+                <a href="../webend/cdn.html">
+            
+                    
+                    cdn
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../webend/chat_gpt.html">
+            
+                <a href="../webend/chat_gpt.html">
+            
+                    
+                    chat_gpt
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../webend/chrome_plugins.html">
+            
+                <a href="../webend/chrome_plugins.html">
+            
+                    
+                    chrome_plugins
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../webend/git.html">
+            
+                <a href="../webend/git.html">
+            
+                    
+                    git
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="../webend/node&npm.html">
+            
+                <a href="../webend/node&npm.html">
+            
+                    
+                    node&npm
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="../webend/note_奇技淫巧.html">
+            
+                <a href="../webend/note_奇技淫巧.html">
+            
+                    
+                    note_奇技淫巧
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8" data-path="../webend/note_布局和样式.html">
+            
+                <a href="../webend/note_布局和样式.html">
+            
+                    
+                    note_布局和样式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9" data-path="../webend/note_打包.html">
+            
+                <a href="../webend/note_打包.html">
+            
+                    
+                    note_打包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.10" data-path="../webend/note_逻辑.html">
+            
+                <a href="../webend/note_逻辑.html">
+            
+                    
+                    note_逻辑
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.11" data-path="../webend/package.json.html">
+            
+                <a href="../webend/package.json.html">
+            
+                    
+                    package.json
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.12" data-path="../webend/react.html">
+            
+                <a href="../webend/react.html">
+            
+                    
+                    react
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.13" data-path="../webend/third_party_plugins.html">
+            
+                <a href="../webend/third_party_plugins.html">
+            
+                    
+                    third_party_plugins
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.14" data-path="../webend/typescript.html">
+            
+                <a href="../webend/typescript.html">
+            
+                    
+                    typescript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.15" data-path="../webend/uni_app.html">
+            
+                <a href="../webend/uni_app.html">
+            
+                    
+                    uni_app
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16" data-path="../webend/vite.html">
+            
+                <a href="../webend/vite.html">
+            
+                    
+                    vite
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.17" data-path="../webend/vscode.html">
+            
+                <a href="../webend/vscode.html">
+            
+                    
+                    vscode
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.18" data-path="../webend/Vue2X.html">
+            
+                <a href="../webend/Vue2X.html">
+            
+                    
+                    Vue2X
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.19" data-path="../webend/Vue3X.html">
+            
+                <a href="../webend/Vue3X.html">
+            
+                    
+                    Vue3X
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.20" data-path="../webend/webpack.html">
+            
+                <a href="../webend/webpack.html">
+            
+                    
+                    webpack
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >JWT</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><ul><li><span class="title-icon "></span><a href="#1&#x76F8;&#x5173;&#x6587;&#x7AE0;"><b></b>1&gt;&#x76F8;&#x5173;&#x6587;&#x7AE0;</a></li><ul><li><span class="title-icon "></span><a href="#1-1jwt&#x5728;&#x7EBF;&#x89E3;&#x7801;&#x5DE5;&#x5177;"><b></b>1-1&gt;JWT&#x5728;&#x7EBF;&#x89E3;&#x7801;&#x5DE5;&#x5177;</a></li><li><span class="title-icon "></span><a href="#1-2aspnet-core-&#x96C6;&#x6210;jwt"><b></b>1-2&gt;asp.net core &#x96C6;&#x6210;JWT</a></li><li><span class="title-icon "></span><a href="#1-3aspnet-core-web-api&#x4E4B;jwt"><b></b>1-3&gt;ASP.NET Core Web Api&#x4E4B;JWT</a></li><li><span class="title-icon "></span><a href="#1-4aspnet-core-&#x5B9E;&#x6218;&#xFF1A;&#x57FA;&#x4E8E;-jwt-token-&#x7684;&#x6743;&#x9650;&#x63A7;&#x5236;&#x5168;&#x63ED;&#x9732;"><b></b>1-4&gt;ASP.NET Core &#x5B9E;&#x6218;&#xFF1A;&#x57FA;&#x4E8E; Jwt Token &#x7684;&#x6743;&#x9650;&#x63A7;&#x5236;&#x5168;&#x63ED;&#x9732;</a></li><li><span class="title-icon "></span><a href="#1-5&#x7528;jwt&#x6765;&#x4FDD;&#x62A4;&#x6211;&#x4EEC;&#x7684;aspnet-core-web-api"><b></b>1-5&gt;&#x7528;JWT&#x6765;&#x4FDD;&#x62A4;&#x6211;&#x4EEC;&#x7684;ASP.NET Core Web API</a></li><li><span class="title-icon "></span><a href="#1-6&#x7528;middleware&#x7ED9;aspnet-core-web-api&#x6DFB;&#x52A0;&#x81EA;&#x5DF1;&#x7684;&#x6388;&#x6743;&#x9A8C;&#x8BC1;"><b></b>1-6&gt;&#x7528;Middleware&#x7ED9;ASP.NET Core Web API&#x6DFB;&#x52A0;&#x81EA;&#x5DF1;&#x7684;&#x6388;&#x6743;&#x9A8C;&#x8BC1;</a></li><li><span class="title-icon "></span><a href="#1-7aspnet-core-&#x8BA4;&#x8BC1;&#x4E0E;&#x6388;&#x6743;4jwtbearer&#x8BA4;&#x8BC1;"><b></b>1-7&gt;ASP.NET Core &#x8BA4;&#x8BC1;&#x4E0E;&#x6388;&#x6743;[4]:JwtBearer&#x8BA4;&#x8BC1;</a></li><li><span class="title-icon "></span><a href="#1-8jwt&#x7B56;&#x7565;&#x53C2;&#x6570;"><b></b>1-8&gt;jwt&#x7B56;&#x7565;&#x53C2;&#x6570;</a></li><li><span class="title-icon "></span><a href="#1-9authentication&#x8DDF;authorization&#x7684;&#x533A;&#x522B;"><b></b>1-9&gt;Authentication&#x8DDF;Authorization&#x7684;&#x533A;&#x522B;</a></li><li><span class="title-icon "></span><a href="#1-10&#x4F7F;&#x7528;swagger&#x4E3A;net-core-30&#x5E94;&#x7528;&#x6DFB;&#x52A0;jwt&#x6388;&#x6743;&#x8BF4;&#x660E;&#x6587;&#x6863;"><b></b>1-10&gt;&#x4F7F;&#x7528;Swagger&#x4E3A;.NET Core 3.0&#x5E94;&#x7528;&#x6DFB;&#x52A0;JWT&#x6388;&#x6743;&#x8BF4;&#x660E;&#x6587;&#x6863;</a></li><li><span class="title-icon "></span><a href="#1-11asp-net-core-5-rest-api-&#x4F7F;&#x7528;-refreshtoken-&#x5237;&#x65B0;-jwt---step-by-step&#xFF08;&#x4E09;&#xFF09;"><b></b>1-11&gt;Asp Net Core 5 REST API &#x4F7F;&#x7528; RefreshToken &#x5237;&#x65B0; JWT - Step by Step&#xFF08;&#x4E09;&#xFF09;</a></li></ul><li><span class="title-icon "></span><a href="#2jwt&#x4EE4;&#x724C;&#x7ED3;&#x6784;"><b></b>2&gt;JWT&#x4EE4;&#x724C;&#x7ED3;&#x6784;</a></li><li><span class="title-icon "></span><a href="#3&#x57FA;&#x7840;&#x6982;&#x5FF5;"><b></b>3&gt;&#x57FA;&#x7840;&#x6982;&#x5FF5;</a></li><li><span class="title-icon "></span><a href="#4net-core&#x4E2D;&#x4F7F;&#x7528;jwt"><b></b>4&gt;NET Core&#x4E2D;&#x4F7F;&#x7528;JWT</a></li><ul><li><span class="title-icon "></span><a href="#4-1&#x7ED3;&#x5408;jwt&#x8BA4;&#x8BC1;&#x5BF9;&#x7528;&#x6237;&#x8FDB;&#x884C;api&#x6388;&#x6743;"><b></b>4-1&gt;&#x7ED3;&#x5408;JWT&#x8BA4;&#x8BC1;&#x5BF9;&#x7528;&#x6237;&#x8FDB;&#x884C;API&#x6388;&#x6743;</a></li><li><span class="title-icon "></span><a href="#4-2&#x4E00;&#x4E2A;&#x7528;&#x6237;&#x540C;&#x65F6;&#x53EA;&#x80FD;&#x62E5;&#x6709;&#x4E00;&#x4E2A;&#x6709;&#x6548;&#x7684;access-token"><b></b>4-2&gt;&#x4E00;&#x4E2A;&#x7528;&#x6237;&#x540C;&#x65F6;&#x53EA;&#x80FD;&#x62E5;&#x6709;&#x4E00;&#x4E2A;&#x6709;&#x6548;&#x7684;Access Token</a></li><li><span class="title-icon "></span><a href="#4-3swagger&#x542F;&#x7528;jwt"><b></b>4-3&gt;Swagger&#x542F;&#x7528;JWT</a></li><li><span class="title-icon "></span><a href="#4-4&#x901A;&#x8FC7;refreshtoken&#x5237;&#x65B0;token"><b></b>4-4&gt;&#x901A;&#x8FC7;RefreshToken&#x5237;&#x65B0;Token</a></li><li><span class="title-icon "></span><a href="#4-5&#x5C01;&#x88C5;"><b></b>4-5&gt;&#x5C01;&#x88C5;</a></li></ul><li><span class="title-icon "></span><a href="#5&#x6CE8;&#x610F;&#x4E8B;&#x9879;"><b></b>5&gt;&#x6CE8;&#x610F;&#x4E8B;&#x9879;</a></li></ul></ul></div><h2 id="1&#x76F8;&#x5173;&#x6587;&#x7AE0;"><a name="1&#x76F8;&#x5173;&#x6587;&#x7AE0;" class="anchor-navigation-ex-anchor" href="#1&#x76F8;&#x5173;&#x6587;&#x7AE0;"><i class="fa fa-link" aria-hidden="true"></i></a>1&gt;&#x76F8;&#x5173;&#x6587;&#x7AE0;</h2>
+<h3 id="1-1jwt&#x5728;&#x7EBF;&#x89E3;&#x7801;&#x5DE5;&#x5177;"><a name="1-1jwt&#x5728;&#x7EBF;&#x89E3;&#x7801;&#x5DE5;&#x5177;" class="anchor-navigation-ex-anchor" href="#1-1jwt&#x5728;&#x7EBF;&#x89E3;&#x7801;&#x5DE5;&#x5177;"><i class="fa fa-link" aria-hidden="true"></i></a>1-1&gt;JWT&#x5728;&#x7EBF;&#x89E3;&#x7801;&#x5DE5;&#x5177;</h3>
+<p><a href="https://jwt.io/" target="_blank">https://jwt.io/</a></p>
+<h3 id="1-2aspnet-core-&#x96C6;&#x6210;jwt"><a name="1-2aspnet-core-&#x96C6;&#x6210;jwt" class="anchor-navigation-ex-anchor" href="#1-2aspnet-core-&#x96C6;&#x6210;jwt"><i class="fa fa-link" aria-hidden="true"></i></a>1-2&gt;asp.net core &#x96C6;&#x6210;JWT</h3>
+<p><a href="https://www.cnblogs.com/7tiny/p/11012035.html" target="_blank">asp.net core &#x96C6;&#x6210;JWT&#xFF08;&#x4E00;&#xFF09;</a></p>
+<p><a href="https://www.cnblogs.com/7tiny/p/11019698.html" target="_blank">asp.net core &#x96C6;&#x6210;JWT&#xFF08;&#x4E8C;&#xFF09;token&#x7684;&#x5F3A;&#x5236;&#x5931;&#x6548;&#xFF0C;&#x57FA;&#x4E8E;&#x7B56;&#x7565;&#x6A21;&#x5F0F;&#x7EC6;&#x5316;api&#x6743;&#x9650;</a></p>
+<h3 id="1-3aspnet-core-web-api&#x4E4B;jwt"><a name="1-3aspnet-core-web-api&#x4E4B;jwt" class="anchor-navigation-ex-anchor" href="#1-3aspnet-core-web-api&#x4E4B;jwt"><i class="fa fa-link" aria-hidden="true"></i></a>1-3&gt;ASP.NET Core Web Api&#x4E4B;JWT</h3>
+<p><a href="https://www.cnblogs.com/CreateMyself/p/11123023.html" target="_blank">ASP.NET Core Web Api&#x4E4B;JWT(&#x4E00;)</a></p>
+<p><a href="https://www.cnblogs.com/CreateMyself/p/11197497.html" target="_blank">ASP.NET Core Web Api&#x4E4B;JWT VS Session VS Cookie(&#x4E8C;)</a></p>
+<p><a href="https://www.cnblogs.com/CreateMyself/p/11273732.html" target="_blank">ASP.NET Core Web Api&#x4E4B;JWT&#x5237;&#x65B0;Token(&#x4E09;)</a></p>
+<p><a href="https://www.cnblogs.com/CreateMyself/p/11291623.html" target="_blank">ASP.NET Core Identity&#x81EA;&#x5B9A;&#x4E49;&#x6570;&#x636E;&#x5E93;&#x7ED3;&#x6784;&#x548C;&#x5B8C;&#x5168;&#x4F7F;&#x7528;Dapper&#x800C;&#x975E;EntityFramework Core</a></p>
+<h3 id="1-4aspnet-core-&#x5B9E;&#x6218;&#xFF1A;&#x57FA;&#x4E8E;-jwt-token-&#x7684;&#x6743;&#x9650;&#x63A7;&#x5236;&#x5168;&#x63ED;&#x9732;"><a name="1-4aspnet-core-&#x5B9E;&#x6218;&#xFF1A;&#x57FA;&#x4E8E;-jwt-token-&#x7684;&#x6743;&#x9650;&#x63A7;&#x5236;&#x5168;&#x63ED;&#x9732;" class="anchor-navigation-ex-anchor" href="#1-4aspnet-core-&#x5B9E;&#x6218;&#xFF1A;&#x57FA;&#x4E8E;-jwt-token-&#x7684;&#x6743;&#x9650;&#x63A7;&#x5236;&#x5168;&#x63ED;&#x9732;"><i class="fa fa-link" aria-hidden="true"></i></a>1-4&gt;ASP.NET Core &#x5B9E;&#x6218;&#xFF1A;&#x57FA;&#x4E8E; Jwt Token &#x7684;&#x6743;&#x9650;&#x63A7;&#x5236;&#x5168;&#x63ED;&#x9732;</h3>
+<p><a href="https://www.cnblogs.com/danvic712/p/10331976.html" target="_blank">https://www.cnblogs.com/danvic712/p/10331976.html</a></p>
+<h3 id="1-5&#x7528;jwt&#x6765;&#x4FDD;&#x62A4;&#x6211;&#x4EEC;&#x7684;aspnet-core-web-api"><a name="1-5&#x7528;jwt&#x6765;&#x4FDD;&#x62A4;&#x6211;&#x4EEC;&#x7684;aspnet-core-web-api" class="anchor-navigation-ex-anchor" href="#1-5&#x7528;jwt&#x6765;&#x4FDD;&#x62A4;&#x6211;&#x4EEC;&#x7684;aspnet-core-web-api"><i class="fa fa-link" aria-hidden="true"></i></a>1-5&gt;&#x7528;JWT&#x6765;&#x4FDD;&#x62A4;&#x6211;&#x4EEC;&#x7684;ASP.NET Core Web API</h3>
+<p><a href="https://www.cnblogs.com/catcher1994/p/6057484.html" target="_blank">https://www.cnblogs.com/catcher1994/p/6057484.html</a></p>
+<h3 id="1-6&#x7528;middleware&#x7ED9;aspnet-core-web-api&#x6DFB;&#x52A0;&#x81EA;&#x5DF1;&#x7684;&#x6388;&#x6743;&#x9A8C;&#x8BC1;"><a name="1-6&#x7528;middleware&#x7ED9;aspnet-core-web-api&#x6DFB;&#x52A0;&#x81EA;&#x5DF1;&#x7684;&#x6388;&#x6743;&#x9A8C;&#x8BC1;" class="anchor-navigation-ex-anchor" href="#1-6&#x7528;middleware&#x7ED9;aspnet-core-web-api&#x6DFB;&#x52A0;&#x81EA;&#x5DF1;&#x7684;&#x6388;&#x6743;&#x9A8C;&#x8BC1;"><i class="fa fa-link" aria-hidden="true"></i></a>1-6&gt;&#x7528;Middleware&#x7ED9;ASP.NET Core Web API&#x6DFB;&#x52A0;&#x81EA;&#x5DF1;&#x7684;&#x6388;&#x6743;&#x9A8C;&#x8BC1;</h3>
+<p><a href="https://www.cnblogs.com/catcher1994/p/6021046.html" target="_blank">https://www.cnblogs.com/catcher1994/p/6021046.html</a></p>
+<h3 id="1-7aspnet-core-&#x8BA4;&#x8BC1;&#x4E0E;&#x6388;&#x6743;4jwtbearer&#x8BA4;&#x8BC1;"><a name="1-7aspnet-core-&#x8BA4;&#x8BC1;&#x4E0E;&#x6388;&#x6743;4jwtbearer&#x8BA4;&#x8BC1;" class="anchor-navigation-ex-anchor" href="#1-7aspnet-core-&#x8BA4;&#x8BC1;&#x4E0E;&#x6388;&#x6743;4jwtbearer&#x8BA4;&#x8BC1;"><i class="fa fa-link" aria-hidden="true"></i></a>1-7&gt;ASP.NET Core &#x8BA4;&#x8BC1;&#x4E0E;&#x6388;&#x6743;[4]:JwtBearer&#x8BA4;&#x8BC1;</h3>
+<p><a href="https://www.cnblogs.com/RainingNight/p/jwtbearer-authentication-in-asp-net-core.html" target="_blank">https://www.cnblogs.com/RainingNight/p/jwtbearer-authentication-in-asp-net-core.html</a></p>
+<h3 id="1-8jwt&#x7B56;&#x7565;&#x53C2;&#x6570;"><a name="1-8jwt&#x7B56;&#x7565;&#x53C2;&#x6570;" class="anchor-navigation-ex-anchor" href="#1-8jwt&#x7B56;&#x7565;&#x53C2;&#x6570;"><i class="fa fa-link" aria-hidden="true"></i></a>1-8&gt;jwt&#x7B56;&#x7565;&#x53C2;&#x6570;</h3>
+<p><a href="https://www.cnblogs.com/fger/p/12202362.html" target="_blank">https://www.cnblogs.com/fger/p/12202362.html</a></p>
+<h3 id="1-9authentication&#x8DDF;authorization&#x7684;&#x533A;&#x522B;"><a name="1-9authentication&#x8DDF;authorization&#x7684;&#x533A;&#x522B;" class="anchor-navigation-ex-anchor" href="#1-9authentication&#x8DDF;authorization&#x7684;&#x533A;&#x522B;"><i class="fa fa-link" aria-hidden="true"></i></a>1-9&gt;Authentication&#x8DDF;Authorization&#x7684;&#x533A;&#x522B;</h3>
+<p><a href="https://blog.csdn.net/linshunhuang1/article/details/108798219" target="_blank">https://blog.csdn.net/linshunhuang1/article/details/108798219</a></p>
+<h3 id="1-10&#x4F7F;&#x7528;swagger&#x4E3A;net-core-30&#x5E94;&#x7528;&#x6DFB;&#x52A0;jwt&#x6388;&#x6743;&#x8BF4;&#x660E;&#x6587;&#x6863;"><a name="1-10&#x4F7F;&#x7528;swagger&#x4E3A;net-core-30&#x5E94;&#x7528;&#x6DFB;&#x52A0;jwt&#x6388;&#x6743;&#x8BF4;&#x660E;&#x6587;&#x6863;" class="anchor-navigation-ex-anchor" href="#1-10&#x4F7F;&#x7528;swagger&#x4E3A;net-core-30&#x5E94;&#x7528;&#x6DFB;&#x52A0;jwt&#x6388;&#x6743;&#x8BF4;&#x660E;&#x6587;&#x6863;"><i class="fa fa-link" aria-hidden="true"></i></a>1-10&gt;&#x4F7F;&#x7528;Swagger&#x4E3A;.NET Core 3.0&#x5E94;&#x7528;&#x6DFB;&#x52A0;JWT&#x6388;&#x6743;&#x8BF4;&#x660E;&#x6587;&#x6863;</h3>
+<p><a href="https://blog.csdn.net/weixin_33008495/article/details/102811347" target="_blank">https://blog.csdn.net/weixin_33008495/article/details/102811347</a></p>
+<p><a href="https://www.cnblogs.com/nwdnote/p/13554202.html" target="_blank">https://www.cnblogs.com/nwdnote/p/13554202.html</a></p>
+<h3 id="1-11asp-net-core-5-rest-api-&#x4F7F;&#x7528;-refreshtoken-&#x5237;&#x65B0;-jwt---step-by-step&#xFF08;&#x4E09;&#xFF09;"><a name="1-11asp-net-core-5-rest-api-&#x4F7F;&#x7528;-refreshtoken-&#x5237;&#x65B0;-jwt---step-by-step&#xFF08;&#x4E09;&#xFF09;" class="anchor-navigation-ex-anchor" href="#1-11asp-net-core-5-rest-api-&#x4F7F;&#x7528;-refreshtoken-&#x5237;&#x65B0;-jwt---step-by-step&#xFF08;&#x4E09;&#xFF09;"><i class="fa fa-link" aria-hidden="true"></i></a>1-11&gt;Asp Net Core 5 REST API &#x4F7F;&#x7528; RefreshToken &#x5237;&#x65B0; JWT - Step by Step&#xFF08;&#x4E09;&#xFF09;</h3>
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzA5NjQ1Njc3Ng==&amp;mid=2247484402&amp;idx=1&amp;sn=264b5235d944f47b250ed478300fcff9" target="_blank">https://mp.weixin.qq.com/s?__biz=MzA5NjQ1Njc3Ng==&amp;mid=2247484402&amp;idx=1&amp;sn=264b5235d944f47b250ed478300fcff9</a></p>
+<h2 id="2jwt&#x4EE4;&#x724C;&#x7ED3;&#x6784;"><a name="2jwt&#x4EE4;&#x724C;&#x7ED3;&#x6784;" class="anchor-navigation-ex-anchor" href="#2jwt&#x4EE4;&#x724C;&#x7ED3;&#x6784;"><i class="fa fa-link" aria-hidden="true"></i></a>2&gt;JWT&#x4EE4;&#x724C;&#x7ED3;&#x6784;</h2>
+<p><code>*JWT&#x7531;&#x4E09;&#x90E8;&#x5206;&#x6784;&#x6210;: Base64&#x7F16;&#x7801;&#x7684;Header(&#x5934;), Base64&#x7F16;&#x7801;&#x7684;Payload(&#x6709;&#x6548;&#x8F7D;&#x8377;), Signature(&#x7B7E;&#x540D;) &#x4E09;&#x90E8;&#x5206;&#x901A;&#x8FC7;&#x70B9;&#x9694;&#x5F00;.</code></p>
+<p>*&#x7B2C;&#x4E00;&#x90E8;&#x5206;&#x4EE5;Base64&#x7F16;&#x7801;&#x7684;Header&#x4E3B;&#x8981;&#x5305;&#x62EC;Token&#x7684;&#x7C7B;&#x578B;&#x548C;&#x6240;&#x4F7F;&#x7528;&#x7684;&#x7B97;&#x6CD5;:</p>
+<pre class="language-"><code class="lang-json"><span class="token punctuation">{</span>
+    <span class="token property">&quot;alg&quot;</span><span class="token operator">:</span> <span class="token string">&quot;HS265&quot;</span><span class="token punctuation">,</span> <span class="token comment">//&#x7B7E;&#x540D;&#x7B97;&#x6CD5;</span>
+    <span class="token property">&quot;typ&quot;</span><span class="token operator">:</span> <span class="token string">&quot;JWT&quot;</span> <span class="token comment">//&#x4EE4;&#x724C;&#x7684;&#x7C7B;&#x578B;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>*&#x7B2C;&#x4E8C;&#x90E8;&#x5206;&#x4EE5;Base64&#x7F16;&#x7801;&#x7684;Payload&#x4E3B;&#x8981;&#x5305;&#x542B;&#x7684;&#x662F;&#x58F0;&#x660E;(Claims):</p>
+<p> 7&#x4E2A;&#x5B98;&#x65B9;&#x5B57;&#x6BB5;:</p>
+<ul>
+<li>iss (issuer)&#xFF1A;&#x7B7E;&#x53D1;&#x4EBA;</li>
+<li>exp (expiration time)&#xFF1A;&#x8FC7;&#x671F;&#x65F6;&#x95F4;</li>
+<li>sub (subject)&#xFF1A;&#x4E3B;&#x9898;</li>
+<li>aud (audience)&#xFF1A;&#x53D7;&#x4F17;</li>
+<li>nbf (Not Before)&#xFF1A;&#x751F;&#x6548;&#x65F6;&#x95F4;</li>
+<li>iat (Issued At)&#xFF1A;&#x7B7E;&#x53D1;&#x65F6;&#x95F4;</li>
+<li><p>jti (JWT ID)&#xFF1A;&#x7F16;&#x53F7;</p>
+<p>&#x53EF;&#x4EE5;&#x5728;&#x8FD9;&#x4E2A;&#x90E8;&#x5206;&#x5B9A;&#x4E49;&#x79C1;&#x6709;&#x5B57;&#x6BB5;:</p>
+</li>
+</ul>
+<pre class="language-"><code class="lang-json"><span class="token punctuation">{</span>
+  <span class="token property">&quot;sub&quot;</span><span class="token operator">:</span> <span class="token string">&quot;1234567890&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;John Doe&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;admin&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>*&#x7B2C;&#x4E09;&#x90E8;&#x5206;&#x5219;&#x662F;&#x5C06;Key&#x901A;&#x8FC7;&#x5BF9;&#x5E94;&#x7684;&#x52A0;&#x5BC6;&#x7B97;&#x6CD5;&#x751F;&#x6210;&#x7B7E;&#x540D;, &#x6700;&#x7EC8;&#x4E09;&#x90E8;&#x5206;&#x4EE5;&#x70B9;&#x9694;&#x5F00;:</p>
+<pre class="language-"><code class="lang-powershell">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9<span class="token punctuation">.</span>
+eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiSmVmZmNreSIsImVtYWlsIjoiMjc1MjE1NDg0NEBxcS5jb20iLCJleHAiOjE1NjU2MTUzOTgsIm5iZiI6MTU2MzE5NjE5OCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAxIn0<span class="token punctuation">.</span>
+OJjlGJOnCCbpok05gOIgu5bwY8QYKfE2pOArtaZJbyI
+</code></pre>
+<h2 id="3&#x57FA;&#x7840;&#x6982;&#x5FF5;"><a name="3&#x57FA;&#x7840;&#x6982;&#x5FF5;" class="anchor-navigation-ex-anchor" href="#3&#x57FA;&#x7840;&#x6982;&#x5FF5;"><i class="fa fa-link" aria-hidden="true"></i></a>3&gt;&#x57FA;&#x7840;&#x6982;&#x5FF5;</h2>
+<p><a href="https://www.cnblogs.com/danvic712/p/10331976.html" target="_blank">Claim&#xFF08;&#x6BCF;&#x4E00;&#x9879;&#x7684;&#x8BC1;&#x4EF6;&#x4FE1;&#x606F;&#xFF09;=&#x300B;ClaimsIdentity&#xFF08;&#x8BC1;&#x4EF6;&#xFF09;=&#x300B;ClaimsPrincipal&#xFF08;&#x8BC1;&#x4EF6;&#x6301;&#x6709;&#x8005;&#xFF09;</a></p>
+<h2 id="4net-core&#x4E2D;&#x4F7F;&#x7528;jwt"><a name="4net-core&#x4E2D;&#x4F7F;&#x7528;jwt" class="anchor-navigation-ex-anchor" href="#4net-core&#x4E2D;&#x4F7F;&#x7528;jwt"><i class="fa fa-link" aria-hidden="true"></i></a>4&gt;NET Core&#x4E2D;&#x4F7F;&#x7528;JWT</h2>
+<h3 id="4-1&#x7ED3;&#x5408;jwt&#x8BA4;&#x8BC1;&#x5BF9;&#x7528;&#x6237;&#x8FDB;&#x884C;api&#x6388;&#x6743;"><a name="4-1&#x7ED3;&#x5408;jwt&#x8BA4;&#x8BC1;&#x5BF9;&#x7528;&#x6237;&#x8FDB;&#x884C;api&#x6388;&#x6743;" class="anchor-navigation-ex-anchor" href="#4-1&#x7ED3;&#x5408;jwt&#x8BA4;&#x8BC1;&#x5BF9;&#x7528;&#x6237;&#x8FDB;&#x884C;api&#x6388;&#x6743;"><i class="fa fa-link" aria-hidden="true"></i></a>4-1&gt;&#x7ED3;&#x5408;JWT&#x8BA4;&#x8BC1;&#x5BF9;&#x7528;&#x6237;&#x8FDB;&#x884C;API&#x6388;&#x6743;</h3>
+<p><code>&#x81EA;&#x5B9A;&#x4E49;&#x9274;&#x6743;&#x7B56;&#x7565;&#x903B;&#x8F91;: &#x7B56;&#x7565;(PolicyRequirement)&#x4FDD;&#x5B58;&#x89D2;&#x8272;&#x4E0E;&#x6743;&#x9650;&#x7684;&#x5173;&#x7CFB;&#x5217;&#x8868;, &#x5728;PolicyHandler&#x91CC;&#x83B7;&#x53D6;&#x7528;&#x6237;&#x5F53;&#x524D;&#x8BBF;&#x95EE;&#x7684;api&#x8DEF;&#x5F84;, &#x518D;&#x6839;&#x636E;&#x7528;&#x6237;&#x6240;&#x5177;&#x5907;&#x7684;&#x89D2;&#x8272;, &#x5224;&#x65AD;&#x7528;&#x6237;&#x662F;&#x5426;&#x53EF;&#x4EE5;&#x8BBF;&#x95EE;&#x5F53;&#x524D;api.</code></p>
+<pre class="language-"><code class="lang-C#">/// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>summary</span><span class="token punctuation">&gt;</span></span>
+/// PolicyRequirement
+/// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>summary</span><span class="token punctuation">&gt;</span></span>
+public sealed class PolicyRequirement : IAuthorizationRequirement
+{
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>summary</span><span class="token punctuation">&gt;</span></span>
+    /// &#x89D2;&#x8272;api&#x6743;&#x9650;&#x96C6;&#x5408;
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>summary</span><span class="token punctuation">&gt;</span></span>
+    public List<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>RoleApiPermission</span><span class="token punctuation">&gt;</span></span> RoleApiPermissions { get; private set; } = new();
+
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>summary</span><span class="token punctuation">&gt;</span></span>
+    /// &#x6784;&#x9020;&#x51FD;&#x6570;
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>summary</span><span class="token punctuation">&gt;</span></span>
+    public PolicyRequirement()
+    {
+        //&#x521D;&#x59CB;&#x5316;&#x89D2;&#x8272;api&#x6743;&#x9650;&#x96C6;&#x5408;
+        RoleApiPermissions = new List<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>RoleApiPermission</span><span class="token punctuation">&gt;</span></span>
+        {
+            new RoleApiPermission
+            {
+                Name=&quot;SystenAdmin&quot;,
+                Urls = new HashSet<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>string</span><span class="token punctuation">&gt;</span></span>
+                {
+                    &quot;/calc/TestJWT/Action3&quot;,
+                },
+            },
+        };
+    }
+}
+
+/// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>summary</span><span class="token punctuation">&gt;</span></span>
+/// RoleApiPermission
+/// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>summary</span><span class="token punctuation">&gt;</span></span>
+public sealed class RoleApiPermission : RoleApiPermission<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>long</span><span class="token punctuation">&gt;</span></span>
+{
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>summary</span><span class="token punctuation">&gt;</span></span>
+    /// 
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>summary</span><span class="token punctuation">&gt;</span></span>
+    public RoleApiPermission() : base()
+    {
+
+    }
+}
+
+/// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>summary</span><span class="token punctuation">&gt;</span></span>
+/// RoleApiPermission
+/// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>summary</span><span class="token punctuation">&gt;</span></span>
+/// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>typeparam</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>TKey<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>typeparam</span><span class="token punctuation">&gt;</span></span>
+public class RoleApiPermission<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>TKey</span><span class="token punctuation">&gt;</span></span>
+{
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>summary</span><span class="token punctuation">&gt;</span></span>
+    /// Id
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>summary</span><span class="token punctuation">&gt;</span></span>
+    public virtual TKey Id { get; set; } = SnowflakeID.GetInstance().GetNextID<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>TKey</span><span class="token punctuation">&gt;</span></span>();
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>summary</span><span class="token punctuation">&gt;</span></span>
+    /// &#x540D;&#x79F0;
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>summary</span><span class="token punctuation">&gt;</span></span>
+    public virtual string Name { get; set; }
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>summary</span><span class="token punctuation">&gt;</span></span>
+    /// &#x8BF7;&#x6C42;Url
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>summary</span><span class="token punctuation">&gt;</span></span>
+    public virtual HashSet<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>string</span><span class="token punctuation">&gt;</span></span> Urls { get; set; } = new();
+}
+</code></pre>
+<pre class="language-"><code class="lang-C#">/// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>summary</span><span class="token punctuation">&gt;</span></span>
+/// &#x7B56;&#x7565;&#x5904;&#x7406;
+/// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>summary</span><span class="token punctuation">&gt;</span></span>
+public class PolicyHandler : AuthorizationHandler<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>PolicyRequirement</span><span class="token punctuation">&gt;</span></span>
+{
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>summary</span><span class="token punctuation">&gt;</span></span>
+    /// &#x5904;&#x7406;&#x9274;&#x6743;&#x7B56;&#x7565;
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>summary</span><span class="token punctuation">&gt;</span></span>
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>param</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>context<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>AuthorizationHandlerContext<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>param</span><span class="token punctuation">&gt;</span></span>
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>param</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>requirement<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>PolicyRequirement<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>param</span><span class="token punctuation">&gt;</span></span>
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>returns</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>returns</span><span class="token punctuation">&gt;</span></span>
+    protected override Task HandleRequirementAsync(AuthorizationHandlerContext context, PolicyRequirement requirement)
+    {
+        if (context.Resource == default) 
+        {
+            throw new ArgumentNullException(nameof(context.Resource));
+        }
+
+        //&#x83B7;&#x53D6;HttpContext
+        var httpContext = (context.Resource as Microsoft.AspNetCore.Http.DefaultHttpContext);
+        if (httpContext == default)
+        {
+            throw new ArgumentNullException(nameof(httpContext));
+        }
+        //&#x8BF7;&#x6C42;Url
+        var questUrl = httpContext.Request?.Path.Value?.ToLower().TrimAll() ?? &quot;&quot;;
+        if (questUrl == default)
+        {
+            throw new ArgumentNullException(nameof(questUrl));
+        }
+
+        //&#x662F;&#x5426;&#x7ECF;&#x8FC7;&#x9A8C;&#x8BC1;
+        var isAuthenticated = httpContext.User?.Identity?.IsAuthenticated ?? false;
+        if (!isAuthenticated)
+        {
+            return Task.CompletedTask;
+        }
+
+        //&#x83B7;&#x53D6;&#x5F53;&#x524D;&#x7528;&#x6237;&#x7684;&#x89D2;&#x8272;&#x5217;&#x8868;
+        var roleStr = httpContext.User.Claims.FirstOrDefault(c =&gt; c.Type == ClaimTypes.Role)?.Value ?? &quot;&quot;;
+        if (string.IsNullOrEmpty(roleStr))
+        {
+            throw new InvalidOperationException(&quot;Role of user is null!&quot;);
+        }
+
+        if (!roleStr.TryJArrayParse(out JArray roles))
+        {
+            throw new InvalidCastException(&quot;Format of role is error!&quot;);
+        }
+
+        if (roles.Count &lt;= 0)
+        {
+            throw new InvalidOperationException(&quot;Role of user is null!&quot;);
+        }
+
+        var rolePermissions = requirement.RoleApiPermissions;
+        if (rolePermissions == default || rolePermissions.Count &lt;= 0)
+        {
+            throw new InvalidOperationException($&quot;{nameof(rolePermissions)} is null!&quot;);
+        }
+
+        //&#x6709;&#x6743;&#x9650;
+        if (
+            (
+                requirement.RoleApiPermissions
+                    .Where(r =&gt; roles.Any(jToken =&gt; jToken.ToString().TrimAll().ToLower() == r.Name.TrimAll().ToLower())).ToList()
+                    .SelectMany(r =&gt; r.Urls).ToList() ?? new List<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>string</span><span class="token punctuation">&gt;</span></span>()
+            ).Distinct().ToList()
+            .Any(url =&gt; url.TrimAll().ToLower() == questUrl)
+        )
+        {
+            context.Succeed(requirement);
+            return Task.CompletedTask;
+        }
+
+
+        //&#x91CD;&#x5B9A;&#x5411;&#x5230;&#x65E0;&#x6743;&#x9650;&#x9875;&#x9762;
+        //httpContext.Response.Redirect(requirement.NoPermissionAction);
+
+        //&#x8FD4;&#x56DE;&#x65E0;&#x6743;&#x9650;&#x7684;&#x54CD;&#x5E94;&#x7ED3;&#x679C;
+        httpContext.Response.Headers.Add
+        (
+            SysContant.JWT_ResponseHeader_ActualReason, 
+            SysContant.ResultMsg_NoPermission
+        );
+        httpContext.Response.StatusCode = (int)HttpStatusCode.Forbidden;
+        context.Fail();
+        return Task.CompletedTask;
+    }
+}
+</code></pre>
+<pre class="language-"><code class="lang-C#">//Startup.ConfigureServices
+//&#x6DFB;&#x52A0;&#x7B56;&#x7565;&#x6A21;&#x5F0F;&#x7684;&#x914D;&#x7F6E;
+.AddAuthorization(authorizationOptions =&gt; 
+{
+    authorizationOptions.AddPolicy(&quot;CustomAuthorization&quot;, policy =&gt;
+    {
+        policy.AddRequirements(new PolicyRequirement());
+    });
+})
+.AddSingleton<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>IAuthorizationHandler,</span> <span class="token attr-name">PolicyHandler</span><span class="token punctuation">&gt;</span></span>()
+</code></pre>
+<h3 id="4-2&#x4E00;&#x4E2A;&#x7528;&#x6237;&#x540C;&#x65F6;&#x53EA;&#x80FD;&#x62E5;&#x6709;&#x4E00;&#x4E2A;&#x6709;&#x6548;&#x7684;access-token"><a name="4-2&#x4E00;&#x4E2A;&#x7528;&#x6237;&#x540C;&#x65F6;&#x53EA;&#x80FD;&#x62E5;&#x6709;&#x4E00;&#x4E2A;&#x6709;&#x6548;&#x7684;access-token" class="anchor-navigation-ex-anchor" href="#4-2&#x4E00;&#x4E2A;&#x7528;&#x6237;&#x540C;&#x65F6;&#x53EA;&#x80FD;&#x62E5;&#x6709;&#x4E00;&#x4E2A;&#x6709;&#x6548;&#x7684;access-token"><i class="fa fa-link" aria-hidden="true"></i></a>4-2&gt;&#x4E00;&#x4E2A;&#x7528;&#x6237;&#x540C;&#x65F6;&#x53EA;&#x80FD;&#x62E5;&#x6709;&#x4E00;&#x4E2A;&#x6709;&#x6548;&#x7684;Access Token</h3>
+<p><code>&#x5B9E;&#x73B0;&#x903B;&#x8F91;:&#x5728;JWT&#x9A8C;&#x8BC1;&#x91CC;, &#x53EF;&#x4EE5;&#x5F00;&#x542F;Issuer, Audience, Token(&#x771F;&#x5B9E;&#x6027;&#x8DDF;&#x6709;&#x6548;&#x6027;)&#x9A8C;&#x8BC1;, &#x56E0;&#x6B64;&#x53EF;&#x4EE5;&#x8BA9;&#x9274;&#x6743;&#x670D;&#x52A1;&#x5668;&#x751F;&#x6210;&#x52A8;&#x6001;&#x7684;Audience, &#x4FDD;&#x8BC1;&#x6BCF;&#x6B21;&#x751F;&#x6210;Token&#x7684;&#x65F6;&#x5019;, &#x90FD;&#x52A0;&#x5165;&#x4E00;&#x4E2A;&#x552F;&#x4E00;&#x7684;Audience, &#x8FD9;&#x6837;, &#x6BCF;&#x4E2A;&#x7528;&#x6237;(&#x6BCF;&#x4E2A;AppID)&#x540C;&#x65F6;&#x53EA;&#x80FD;&#x62E5;&#x6709;&#x4E00;&#x4E2A;&#x552F;&#x4E00;&#x6709;&#x6548;&#x7684;Access Token.</code></p>
+<pre class="language-"><code class="lang-C#">/// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>summary</span><span class="token punctuation">&gt;</span></span>
+/// Auth
+/// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>summary</span><span class="token punctuation">&gt;</span></span>
+[Route(&quot;calc/[controller]&quot;)]
+[ApiController]
+public class AuthController : ControllerBase
+{
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>summary</span><span class="token punctuation">&gt;</span></span>
+    /// IMemoryCache
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>summary</span><span class="token punctuation">&gt;</span></span>
+    private readonly IMemoryCache _memoryCache = default;
+
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>summary</span><span class="token punctuation">&gt;</span></span>
+    /// <span class="token cdata">&lt;![CDATA[IOptionsSnapshot&lt;SystemConfig&gt;]]&gt;</span> 
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>summary</span><span class="token punctuation">&gt;</span></span>
+    private readonly IOptionsSnapshot<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>SystemConfig</span><span class="token punctuation">&gt;</span></span> _optionsSnapshot = default;
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>summary</span><span class="token punctuation">&gt;</span></span>
+    /// &#x7CFB;&#x7EDF;&#x914D;&#x7F6E;
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>summary</span><span class="token punctuation">&gt;</span></span>
+    private readonly SystemConfig _systemConfig = default;
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>summary</span><span class="token punctuation">&gt;</span></span>
+    /// memoryCache
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>summary</span><span class="token punctuation">&gt;</span></span>
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>param</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>memoryCache<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>memoryCache<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>param</span><span class="token punctuation">&gt;</span></span>
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>param</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>optionsSnapshot<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>optionsSnapshot<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>param</span><span class="token punctuation">&gt;</span></span>
+    public AuthController(IMemoryCache memoryCache, IOptionsSnapshot<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>SystemConfig</span><span class="token punctuation">&gt;</span></span> optionsSnapshot)
+    {
+        _memoryCache = memoryCache ?? throw new ArgumentNullException(nameof(memoryCache));
+        _optionsSnapshot = optionsSnapshot ?? throw new ArgumentNullException(nameof(optionsSnapshot));
+        _systemConfig = _optionsSnapshot.Value ?? throw new ArgumentNullException(nameof(_optionsSnapshot.Value));
+
+        //&#x8BBE;&#x7F6E;&#x5168;&#x5C40;&#x7684;MemoryCache
+        FramePublicFun.MemoryCacheGlobal = memoryCache;
+    }
+
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>summary</span><span class="token punctuation">&gt;</span></span>
+    /// &#x767B;&#x5F55;
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>summary</span><span class="token punctuation">&gt;</span></span>
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>param</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>userName<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>&#x7528;&#x6237;&#x540D;<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>param</span><span class="token punctuation">&gt;</span></span>
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>param</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>passWord<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>&#x5BC6;&#x7801;<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>param</span><span class="token punctuation">&gt;</span></span>
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>param</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>cancellationToken<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>cancellationToken<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>param</span><span class="token punctuation">&gt;</span></span>
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>returns</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>returns</span><span class="token punctuation">&gt;</span></span>
+    [HttpPost(&quot;Login&quot;)]
+    public async Task<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>FunResult</span><span class="token punctuation">&gt;</span></span> LoginSync(string userName, string passWord, CancellationToken cancellationToken=default)
+    {
+        try
+        {
+            userName = userName ?? &quot;&quot;;
+            passWord = passWord ?? &quot;&quot;;
+            //TODO &#x6821;&#x9A8C;&#x7528;&#x6237;&#x8D26;&#x53F7;&#x5BC6;&#x7801;
+            if (userName != &quot;dylanxu&quot; || passWord != &quot;123456&quot;)
+            {
+                return new FunResult
+                (
+                    SysContant.ResultCode_InvalidUserNameOrPassword,
+                    &quot;Fail&quot;,
+                    null
+                );
+            }
+            //TODO &#x67E5;&#x8BE2;&#x7528;&#x6237;&#x62E5;&#x6709;&#x7684;&#x89D2;&#x8272;&#x96C6;&#x5408;
+            var roles = new List<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>string</span><span class="token punctuation">&gt;</span></span> { &quot;SystenAdmin&quot; };
+
+            var utcNow = DateTimeOffset.UtcNow;
+            //&#x521B;&#x5EFA;&#x58F0;&#x660E;&#x96C6;&#x5408;
+            var claims = new[]
+            {
+                new Claim
+                (
+                    JwtRegisteredClaimNames.Nbf,
+                    $&quot;{utcNow.ToUnixTimeSeconds()}&quot;
+                ) ,
+                new Claim
+                (
+                    JwtRegisteredClaimNames.Exp,
+                    $&quot;{utcNow.AddSeconds(_systemConfig.JWTSetting.Expiration_AccessToken.Value).ToUnixTimeSeconds()}&quot;
+                ),
+                new Claim
+                (
+                    ClaimTypes.Name,
+                    userName
+                ),
+                //new Claim
+                //(
+                //  SysContant.ClaimTypes_PassWord,
+                //  passWord
+                //),
+                new Claim
+                (
+                    ClaimTypes.Role,
+                    NewtonsoftSerializer.SerializeObject(roles)
+                ),
+            };
+
+            //&#x8BBE;&#x7F6E;&#x52A8;&#x6001;&#x7684;audience, &#x52A0;&#x4E0A;SnowID, &#x4FDD;&#x8BC1;&#x6BCF;&#x4E2A;&#x7528;&#x6237;, &#x6BCF;&#x6B21;&#x767B;&#x5F55;&#x540E;, audience&#x90FD;&#x662F;&#x552F;&#x4E00;&#x7684;
+            //TODO &#x540E;&#x671F;&#x6539;&#x6210;&#x7528;redis&#x7F13;&#x5B58;
+            var cacheKey = $&quot;{SysContant.Cache_Key_Prefix_Audience}{userName}&quot;;
+            var audience =
+                FramePublicFun.MD5
+                (
+                    $&quot;{userName}|^|{passWord}|^|{await SnowflakeID.GetInstance().GetNextIDAsync<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>string</span><span class="token punctuation">&gt;</span></span>()}&quot;,
+                    false,
+                    Encoding.UTF8
+                );
+            //&#x6BCF;&#x4E2A;&#x7528;&#x6237;&#x7684;audience&#x7F13;&#x5B58;&#x5931;&#x6548;&#x671F;&#x53EF;&#x4EE5;&#x4E0D;&#x8BBE;&#x7F6E;
+            //&#x670D;&#x52A1;&#x5668;&#x9274;&#x6743;&#x65F6;, &#x5148;&#x6821;&#x9A8C;&#x7684;audience, &#x518D;&#x6821;&#x9A8C;token&#x662F;&#x5426;&#x5931;&#x6548;
+            //audience&#x7684;&#x4F5C;&#x7528;&#x4E3B;&#x8981;&#x662F;&#x4E3A;&#x4E86;&#x9A8C;&#x8BC1;&#x7528;&#x6237;&#x662F;&#x5426;&#x91CD;&#x65B0;&#x767B;&#x5F55;&#x4E86;, &#x6216;&#x8005;&#x662F;&#x5426;&#x4FEE;&#x6539;&#x4E86;&#x5BC6;&#x7801;, audience&#x7684;&#x5931;&#x6548;&#x671F;&#x5E76;&#x4E0D;&#x91CD;&#x8981;,
+            //&#x56E0;&#x4E3A;&#x9274;&#x6743;&#x670D;&#x52A1;&#x5668;&#x4F1A;&#x6821;&#x9A8C;token&#x7684;&#x6709;&#x6548;&#x671F;
+            await _memoryCache.SetCacheAsync
+                (
+                    cacheKey, audience,
+                    TimeSpan.FromSeconds(int.MaxValue),
+                    default, default,
+                    cancellationToken
+                );
+
+            var symmetricSecurityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_systemConfig.JWTSetting.SecurityKey));
+            var signingCredentials = new SigningCredentials(symmetricSecurityKey, SecurityAlgorithms.HmacSha256);
+
+            var jwtSecurityToken = new JwtSecurityToken
+            (
+                issuer: _systemConfig.JWTSetting.Issuer,
+                audience: audience,
+                claims: claims,
+                expires: DateTime.UtcNow.AddSeconds(_systemConfig.JWTSetting.Expiration_AccessToken.Value), //&#x63A7;&#x5236;jwtToken&#x7684;&#x6709;&#x6548;&#x65F6;&#x95F4;
+                                                                                         //expires: DateTime.Now.AddMinutes(1), //&#x63A7;&#x5236;jwtToken&#x7684;&#x6709;&#x6548;&#x65F6;&#x95F4;
+                signingCredentials: signingCredentials
+            );
+
+            var jwtSecurityTokenHandler = new JwtSecurityTokenHandler();
+            var jwtToken = jwtSecurityTokenHandler.WriteToken(jwtSecurityToken);
+
+            return await Task.FromResult(new FunResult
+            (
+                SysContant.ResultCode_Success,
+                &quot;Success&quot;,
+                jwtToken
+            ));
+        }
+        catch (Exception ex)
+        {
+            return new FunResult
+            (
+                SysContant.ResultCode_Fail,
+                ex.GetInnerExceptionMsg(),
+                null
+            );
+        }
+    }
+}
+</code></pre>
+<pre class="language-"><code class="lang-C#">//Startup.ConfigureServices
+//&#x6DFB;&#x52A0;JWT&#x9A8C;&#x8BC1;
+services
+    //&#x6DFB;&#x52A0;&#x7B56;&#x7565;&#x6A21;&#x5F0F;&#x7684;&#x914D;&#x7F6E;
+    .AddAuthorization(authorizationOptions =&gt; 
+    {
+        authorizationOptions.AddPolicy(&quot;CustomAuthorization&quot;, policy =&gt;
+        {
+            policy.AddRequirements(new PolicyRequirement());
+        });
+    })
+    .AddSingleton<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>IAuthorizationHandler,</span> <span class="token attr-name">PolicyHandler</span><span class="token punctuation">&gt;</span></span>()
+    //.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddAuthentication(authenticationOptions =&gt; 
+    {
+        //&#x6DFB;&#x52A0;JWT Scheme
+        authenticationOptions.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+        authenticationOptions.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+        authenticationOptions.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+    })
+    .AddJwtBearer(jwtBearerOptions =&gt; 
+    {
+        jwtBearerOptions.Events = new JwtBearerEvents
+        {
+            //TokenValidated&#xFF1A;&#x5728;Token&#x9A8C;&#x8BC1;&#x901A;&#x8FC7;&#x540E;&#x8C03;&#x7528;&#x3002;
+            //AuthenticationFailed: &#x8BA4;&#x8BC1;&#x5931;&#x8D25;&#x65F6;&#x8C03;&#x7528;&#x3002;
+            //Challenge: &#x672A;&#x6388;&#x6743;&#x65F6;&#x8C03;&#x7528;&#x3002;
+            //&#x8BBE;&#x7F6E;&#x6D88;&#x606F;&#x63A5;&#x6536;&#x4E8B;&#x4EF6;, &#x53EF;&#x4EE5;&#x81EA;&#x5B9A;&#x4E49;Token&#x7684;&#x83B7;&#x53D6;&#x65B9;&#x5F0F;
+            OnMessageReceived = messageReceivedContext =&gt;
+            {
+                var access_token = messageReceivedContext.Request.Headers[SysContant.JWT_AccessToken].ToString();
+                if (string.IsNullOrEmpty(access_token))
+                {
+                    access_token = messageReceivedContext.Request.Query[SysContant.JWT_AccessToken].ToString();
+                }
+
+                messageReceivedContext.Token = access_token;
+                return Task.CompletedTask;
+            },
+            OnAuthenticationFailed = authenticationFailedContext =&gt; 
+            {
+                //&#x82E5;&#x662F;token&#x8FC7;&#x671F;, &#x5219;&#x5728;&#x54CD;&#x5E94;&#x5934;&#x4E0A;&#x8FD4;&#x56DE;&#x5177;&#x4F53;&#x539F;&#x56E0;
+                if (authenticationFailedContext.Exception.GetType() == typeof(SecurityTokenExpiredException))
+                {
+                    authenticationFailedContext.Response.Headers.Add
+                    (
+                        SysContant.JWT_ResponseHeader_ActualReason,
+                        SysContant.ResultMsg_TokenExpired
+                    );
+                }
+
+                return Task.CompletedTask;
+            },
+        };
+
+        //&#x8BBE;&#x7F6E;&#x4EE4;&#x724C;&#x6821;&#x9A8C;&#x53C2;&#x6570;
+        jwtBearerOptions.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true, //&#x662F;&#x5426;&#x9A8C;&#x8BC1;Issuer
+            ValidIssuer = Configuration[&quot;SystemConfig:JWTSetting:Issuer&quot;], //Issuer&#xFF0C;&#x8FD9;&#x4E24;&#x9879;&#x548C;&#x524D;&#x9762;&#x7B7E;&#x53D1;jwt&#x7684;&#x8BBE;&#x7F6E;&#x4E00;&#x81F4;
+
+            ValidateAudience = true, //&#x662F;&#x5426;&#x9A8C;&#x8BC1;Audience
+            //ValidAudience = SysContant.JWT_Domain, //Audience
+            AudienceValidator = (audiences, securityToken, validationParameters) =&gt;
+            {
+                var jwtSecurityToken = securityToken as JwtSecurityToken;
+                if (jwtSecurityToken == default) 
+                {
+                    //throw new InvalidCastException(nameof(jwtSecurityToken));
+                    return false;
+                }
+
+                var userName = jwtSecurityToken.Claims.FirstOrDefault(c =&gt; c.Type == ClaimTypes.Name)?.Value ?? &quot;&quot;;
+                if (string.IsNullOrEmpty(userName)) 
+                {
+                    //throw new ArgumentNullException(nameof(userName));
+                    return false;
+                }
+
+                if (FramePublicFun.MemoryCacheGlobal == default)
+                {
+                    return false;
+                }
+
+                //TODO &#x4ECE;redis&#x4E2D;&#x83B7;&#x53D6;&#x5F53;&#x524D;&#x7528;&#x6237;&#x7684;audience
+                var cacheKey = $&quot;{SysContant.Cache_Key_Prefix_Audience}{userName}&quot;;
+                var (result, val) = FramePublicFun.MemoryCacheGlobal.TryGetVal<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>string</span><span class="token punctuation">&gt;</span></span>(cacheKey);
+                if (!result)
+                {
+                    return result;
+                }
+                if (string.IsNullOrEmpty(val))
+                {
+                    return false;
+                }
+
+                //&#x6821;&#x9A8C;&#x5F53;&#x524D;&#x7684;audiences&#x662F;&#x5426;&#x4E0E;&#x7F13;&#x5B58;&#x7684;&#x76F8;&#x540C;
+                return audiences.Contains(val);
+            },
+            ValidateLifetime = true, //&#x662F;&#x5426;&#x9A8C;&#x8BC1;Token&#x6709;&#x6548;&#x671F;&#xFF0C;&#x4F7F;&#x7528;&#x5F53;&#x524D;&#x65F6;&#x95F4;&#x4E0E;Token&#x7684;Claims&#x4E2D;&#x7684;NotBefore&#x548C;Expires&#x5BF9;&#x6BD4;
+            ClockSkew = TimeSpan.FromSeconds(double.Parse(Configuration[&quot;SystemConfig:JWTSetting:ClockSkew&quot;])), //&#x5141;&#x8BB8;&#x7684;&#x670D;&#x52A1;&#x5668;&#x65F6;&#x95F4;&#x504F;&#x79FB;&#x91CF;
+
+            ValidateIssuerSigningKey = true, //&#x662F;&#x5426;&#x9A8C;&#x8BC1;SecurityKey
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration[&quot;SystemConfig:JWTSetting:SecurityKey&quot;])) //&#x62FF;&#x5230;SecurityKey
+        };
+    });
+</code></pre>
+<pre class="language-"><code class="lang-C#">//Startup.Configure
+app.UseAuthentication()//&#x542F;&#x52A8;JWT&#x9A8C;&#x8BC1;
+   .UseAuthorization();
+</code></pre>
+<h3 id="4-3swagger&#x542F;&#x7528;jwt"><a name="4-3swagger&#x542F;&#x7528;jwt" class="anchor-navigation-ex-anchor" href="#4-3swagger&#x542F;&#x7528;jwt"><i class="fa fa-link" aria-hidden="true"></i></a>4-3&gt;Swagger&#x542F;&#x7528;JWT</h3>
+<pre class="language-"><code class="lang-C#">//Startup.ConfigureServices
+//&#x6CE8;&#x518C;Swagger
+.AddSwaggerGen(swaggerGenOptions =&gt;
+{
+    swaggerGenOptions
+        //Swagger&#x62D3;&#x5C55;&#x914D;&#x7F6E;
+        .ConfigExtension($&quot;{typeof(Startup).Namespace}.xml&quot;)
+        .SwaggerDoc
+        (
+            &quot;v1&quot;,
+            new OpenApiInfo
+            {
+                Title = &quot;Dylan.DbContextApiDemo&quot;,
+                Version = &quot;v1&quot;
+            }
+        );
+
+    //Swagger&#x5F00;&#x542F;JWT 
+    swaggerGenOptions.AddSecurityDefinition(JwtBearerDefaults.AuthenticationScheme, new OpenApiSecurityScheme
+    {
+        Name = &quot;Authorization&quot;,
+        In = ParameterLocation.Header,
+        Type = SecuritySchemeType.ApiKey,
+        BearerFormat = &quot;JWT&quot;,
+        Scheme = JwtBearerDefaults.AuthenticationScheme,
+        Description = &quot;JWT Authorization header using the Bearer scheme. Example: \&quot;Authorization: Bearer {token}\&quot;&quot;,
+    });
+    swaggerGenOptions.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = JwtBearerDefaults.AuthenticationScheme
+                }
+            },new string[]{ }
+        }
+    });
+})
+</code></pre>
+<pre class="language-"><code class="lang-C#">/// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>summary</span><span class="token punctuation">&gt;</span></span>
+/// Swagger&#x62D3;&#x5C55;&#x7C7B;
+/// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>summary</span><span class="token punctuation">&gt;</span></span>
+public static class SwaggerExtension
+{
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>summary</span><span class="token punctuation">&gt;</span></span>
+    /// Swagger&#x62D3;&#x5C55;&#x914D;&#x7F6E;
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>summary</span><span class="token punctuation">&gt;</span></span>
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>param</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>opt<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>SwaggerGenOptions<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>param</span><span class="token punctuation">&gt;</span></span>
+    /// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>param</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>xmlName<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>xml&#x6587;&#x4EF6;&#x540D;<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>param</span><span class="token punctuation">&gt;</span></span>
+    public static SwaggerGenOptions ConfigExtension(this SwaggerGenOptions opt, string xmlName)
+    {
+        if (opt == default)
+        {
+            throw new ArgumentNullException(nameof(opt));
+        }
+
+        if (string.IsNullOrEmpty(xmlName))
+        {
+            throw new ArgumentNullException(nameof(xmlName));
+        }
+
+        var xmlPath = Path.Combine(FramePublicFun.GetDllPath(), xmlName);
+        if (!File.Exists(xmlPath))
+        {
+            throw new InvalidOperationException($&quot;Fail to locate file ({xmlPath})!&quot;);
+        }
+
+        opt.IncludeXmlComments(xmlPath);
+
+        return opt;
+    }
+}
+</code></pre>
+<h3 id="4-4&#x901A;&#x8FC7;refreshtoken&#x5237;&#x65B0;token"><a name="4-4&#x901A;&#x8FC7;refreshtoken&#x5237;&#x65B0;token" class="anchor-navigation-ex-anchor" href="#4-4&#x901A;&#x8FC7;refreshtoken&#x5237;&#x65B0;token"><i class="fa fa-link" aria-hidden="true"></i></a>4-4&gt;&#x901A;&#x8FC7;RefreshToken&#x5237;&#x65B0;Token</h3>
+<p>*<code>&#x57FA;&#x672C;&#x6982;&#x5FF5;:</code>JWT Token&#x6709;&#x4E00;&#x4E2A;&#x8FC7;&#x671F;&#x65F6;&#x95F4;, &#x65F6;&#x95F4;&#x8D8A;&#x77ED;&#x8D8A;&#x5B89;&#x5168;. &#x8FC7;&#x671F;&#x540E;&#xFF0C;&#x6709;&#x4E24;&#x79CD;&#x65B9;&#x6CD5;&#x53EF;&#x4EE5;&#x83B7;&#x53D6;&#x65B0;&#x7684; access token:</p>
+<ul>
+<li>&#x5BA2;&#x6237;&#x7AEF;(&#x524D;&#x7AEF;)&#x68C0;&#x6D4B;&#x5230;access token&#x5931;&#x6548;&#x540E;, &#x91CD;&#x5B9A;&#x5411;&#x5230;&#x767B;&#x5F55;&#x9875;&#x9762;, &#x8BA9;&#x7528;&#x6237;&#x91CD;&#x65B0;&#x767B;&#x5F55;.</li>
+<li>&#x4F7F;&#x7528;Refresh Token&#x81EA;&#x52A8;&#x91CD;&#x65B0;&#x9A8C;&#x8BC1;&#x7528;&#x6237;, &#x5E76;&#x751F;&#x6210;&#x65B0;&#x7684; access token.</li>
+</ul>
+<h3 id="4-5&#x5C01;&#x88C5;"><a name="4-5&#x5C01;&#x88C5;" class="anchor-navigation-ex-anchor" href="#4-5&#x5C01;&#x88C5;"><i class="fa fa-link" aria-hidden="true"></i></a>4-5&gt;&#x5C01;&#x88C5;</h3>
+<h2 id="5&#x6CE8;&#x610F;&#x4E8B;&#x9879;"><a name="5&#x6CE8;&#x610F;&#x4E8B;&#x9879;" class="anchor-navigation-ex-anchor" href="#5&#x6CE8;&#x610F;&#x4E8B;&#x9879;"><i class="fa fa-link" aria-hidden="true"></i></a>5&gt;&#x6CE8;&#x610F;&#x4E8B;&#x9879;</h2>
+<p>*<code>&#x7B7E;&#x540D;&#x7684;SecurityKey&#x957F;&#x5EA6;&#x81F3;&#x5C11;&#x8981;16&#x4F4D;, &#x5426;&#x5219;&#x751F;&#x6210;Token&#x4F1A;&#x62A5;&#x9519;.</code></p>
+<p>*<code>&#x4F7F;&#x7528;&#x81EA;&#x5B9A;&#x4E49;&#x9274;&#x6743;&#x7B56;&#x7565;, &#x53EA;&#x6709;&#x5728;class&#x6216;&#x8005;method&#x4E0A;&#x6807;&#x8BC6; Authorize(policy: &quot;&#x81EA;&#x5B9A;&#x4E49;&#x9274;&#x6743;&#x7B56;&#x7565;&#x540D;&#x79F0;&quot;), &#x624D;&#x4F1A;&#x8D70;&#x81EA;&#x5B9A;&#x4E49;&#x9274;&#x6743;&#x7B56;&#x7565;&#x7684;&#x903B;&#x8F91;.</code></p>
+<footer class="page-footer"><span class="copyright">Copyright &#xA9; Dylan all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">Latest revision time: 
+2022-08-17 14:26:15
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Identify_Server_4.html" class="navigation navigation-prev " aria-label="Previous page: Identify_Server_4">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="MemoryCache_and_分布式Cache_Redis.html" class="navigation navigation-next " aria-label="Next page: MemoryCacheand分布式Cache_Redis">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"JWT","level":"1.2.6","depth":2,"next":{"title":"MemoryCacheand分布式Cache_Redis","level":"1.2.7","depth":2,"path":"NetCore/MemoryCache_and_分布式Cache_Redis.md","ref":"NetCore/MemoryCache_and_分布式Cache_Redis.md","articles":[]},"previous":{"title":"Identify_Server_4","level":"1.2.5","depth":2,"path":"NetCore/Identify_Server_4.md","ref":"NetCore/Identify_Server_4.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","-fontsettings","search-pro","anchor-navigation-ex","back-to-top-button","expandable-chapters","code","github","tbfed-pagefooter","prism","-highlight","-sharing","sharing-plus","splitter","hide-element","page-toc-button","theme-comscore"],"ignores":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy Dylan","modify_label":"Latest revision time: ","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prismjs/themes/prism-tomorrow.css"]},"github":{"url":"https://www.baidu.com"},"splitter":{},"search-pro":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"code":{"copyButtons":true},"hide-element":{"elements":[".gitbook-link",".page-footer .copyright"]},"anchor-navigation-ex":{"mode":"float","pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"showLevel":false,"tocLevel1Icon":"fa fa-hand-o-right","tocLevel2Icon":"fa fa-hand-o-right","tocLevel3Icon":"fa fa-hand-o-right","showGoTop":false,"isShowTocTitleIcon":true,"printLog":false,"multipleH1":true,"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false}},"theme-comscore":{},"page-toc-button":{"maxTocDepth":2,"minTocSize":2},"back-to-top-button":{},"sharing":{"qq":true,"all":["facebook","google","twitter","weibo","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":false,"weibo":true,"instapaper":false,"whatsapp":true,"hatenaBookmark":false,"twitter":false,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":true,"linkedin":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"Dylan","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"sortedBy":"-","disableTitleFormatting":true,"variables":{},"title":"Study Note","catalog":"all","gitbook":"*","unchanged":[],"outputfile":"SUMMARY.md"},"file":{"path":"NetCore/JWT.md","mtime":"2022-08-17T06:26:15.408Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-06-27T11:02:03.485Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-hide-element/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-page-toc-button/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-theme-comscore/test.js"></script>
+        
+    
+
+    </body>
+</html>
+
