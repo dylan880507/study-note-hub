@@ -1,6 +1,6 @@
 ## I>相关文章
 
-[Dylan学习笔记](https://dylan880507.github.io/study-note-hub/os/centos.html)
+[Dylan学习笔记](https://dylan880507.github.io/study-note-hub/)
 
 [GitBook 使用教程](https://blog.csdn.net/raspi_fans/article/details/129570510)
 
@@ -19,3 +19,25 @@
 [Linux or Mac 安装 gitbook 3.2.3 失败解决方案](https://xmuli.tech/posts/d7327716/)
 
 [gitbook超全配置](https://www.mapull.com/gitbook/comscore/config/basic.html)
+
+## II>常用命令
+
+```bash
+# 全局安装 gitbook-cli, node版本必须是v10.23.0
+npm i -g gitbook-cli
+
+# 查看版本
+gitbook -V
+# 自动创建 README.md 和 SUMMARY.md
+gitbook init 
+
+# 全局安装 gitbook-summary
+npm install -g gitbook-summary
+# 动态生成左侧目录
+book sm
+
+# 生成本地web项目
+gitbook serve
+# 创建prod文件, 可将_book目录内的文件推送到github page, 每次推送后, github page会自动执行work flow, 更新页面内容。
+gitbook build
+```
