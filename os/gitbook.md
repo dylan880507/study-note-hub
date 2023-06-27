@@ -1,5 +1,7 @@
 ## I>相关文章
 
+[Dylan学习笔记](https://dylan880507.github.io/study-note-hub/os/centos.html)
+
 [GitBook 使用教程](https://blog.csdn.net/raspi_fans/article/details/129570510)
 
 [GitBook讲解](https://blog.csdn.net/qq_41809023/article/details/127514108)
