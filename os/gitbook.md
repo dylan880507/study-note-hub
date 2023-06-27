@@ -15,3 +15,5 @@
 [打造完美写作系统：Gitbook+Github Pages+Github Actions](https://blog.csdn.net/qq_40889820/article/details/110013310)
 
 [Linux or Mac 安装 gitbook 3.2.3 失败解决方案](https://xmuli.tech/posts/d7327716/)
+
+[gitbook超全配置](https://www.mapull.com/gitbook/comscore/config/basic.html)
